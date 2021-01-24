@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+		<meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+		<title>我的</title>
+		<link rel="stylesheet" type="text/css" href="../css/api.css"/>
+		<link rel="stylesheet" type="text/css" href="../plugins/weui/lib/weui.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../plugins/weui/css/jquery-weui.min.css"/>
+		<style>
+		html,
+	body {
+		font-size: 12px;
+		height: 100%;
+		font-family: sans-serif;
+	}
+#main{
+	height: 100%;
+}
+	#wrap {
+		height: 100%;
+		background: #F9F7F8;
+	}
+	header {
+			background-color:#6BD089;
+			line-height: 54px;
+			height: 54px;
+			width: 100%;
+			color: #fff;
+			letter-spacing:0.1rem;
+			z-index:9;
+	}
+			header .title {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			text-align: center;
+			font-size: 18px;
+			font-weight: 600;
+			color: #fff;
+	}
+
+/*头*/
+			.img_box img {
+				width: 6rem;
+				height: 6rem;
+				border-radius: 4rem;
+				margin-left: 0.6rem;
+				margin-right: 0.75rem;
+			}
+      .bjt{
+      	/*height: 180px;*/
+				height: 13rem;
+				width: 100%;
+				/*background-image: url('../icon/dlbg.jpg');*/
+			  background-image: url('../icon/bgt11.jpg');
+				position: relative;
+      }
+     .grxx{
+     	/*height: 105px;*/
+			height: 5.5rem;
+			background-color: #FFFFFF;
+			width: 92%;
+			/*margin: auto;*/
+			border-radius: .5rem;
+			position: absolute;
+			/*top: 60%;*/
+			top: 9rem;
+			left: 4%;
+			/*margin-top:-88px;*/
+			box-shadow:2px 2px 10px #909090;
+     }
+		.word_box{
+			margin: auto;
+		}
+		.pql{
+			position: absolute;
+			width: 8rem;
+			height: 8rem;
+			bottom: 2.1rem;
+			left:50%;
+			margin-left: -4rem;
+			/*margin： 0 auto；*/
+			/*left: calc(46%-8rem);*/
+				/*left: 46%;*/
+			/*top: 50%;*/
+			/*left: 35%;*/
+			/*margin-left:-17%;*/
+			/*margin-top:-54px;*/
+		}
+
+/*内容相关*/
+/*.x_title{
+	margin-right: .6rem;
+	margin-leftt: .6rem;
+	font-size: 13px;
+	font-weight: bold;
+}*/
+/*.bg {
+
+			}*/
+	.s_title{
+		/*margin-right: .8rem;
+		margin-left: .8rem;
+		font-size: 15px;
+		font-weight: bold;
+	  height:28px;*/
+	}
+
+	.sg_group{
+		margin-right: 1.2rem;
+		margin-left: 1.2rem;
+		margin-top:1rem;
+		/*background-color:red;*/
+		height:6rem;
+		display:flex;
+		background-color:#FFFFFF;
+		border-radius: .5rem;
+		box-shadow:2px 2px 10px #909090;
+
+	}
+.lg_group{
+	/*background-color:orange;*/
+	height:6rem;
+	flex:1;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:row;
+
+}
+.ygy{
+	/*background-color:#FFFFFF;*/
+	flex:1;
+}
+.ygy img{
+	width: 3.5rem;
+	height: 3.5rem;
+	border-radius: 2.2rem;
+}
+.inline_center{
+	text-align: center;
+}
+
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="main" class="flex-con" >
+					<div class="bjt">
+						<div class="grxx">
+							<div class="pql">
+
+								<div class="img_box" style="text-align:center"><img src="../image/tx.png">
+								</div>
+								<div class="word_box">
+									<div class="top" id="user_name" style="text-align:center;font-size:15px;margin-top:.3rem"></div>
+									<div  style="text-align:center;font-size:13px;margin-top:.3rem;color:#303030">天然花茶,安心可口</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+				<div class="s_title" style="margin-top:50px;height:28px">
+					<!-- 我的功能 -->
+					<img src="../sd-icon/s_tp/wdgn.png" alt="" height="38px" width="100%">
+				</div>
+        <!-- </div> -->
+
+				<div class="sg_group">
+
+					<div class="lg_group">
+						<div class="ygy tzyma" data-url="afour_grmassage.html">
+							<div class="inline_center">
+								<img src="../sd-icon/s_d/gr.png">
+							</div>
+							<div class="inline_center">
+								  个人信息
+							</div>
+						</div>
+
+						<div class="ygy tzyma" data-url="afour_wdkhlist.html">
+							<div class="inline_center">
+								<img src="../sd-icon/s_d/wdkh.png">
+							</div>
+							<div class="inline_center">
+									我的客户
+							</div>
+						</div>
+					</div>
+
+
+					<div class="lg_group">
+						<!-- <div class="ygy tzyma" data-url="afour_wdjh_list.html"> -->
+							<div class="ygy tzyma" data-url="aone_shjh_list.html">
+							<div class="inline_center">
+								<img src="../sd-icon/s_d/wdjh.png">
+							</div>
+							<div class="inline_center">
+									我的审核计划
+							</div>
+						</div>
+
+						<!-- <div class="ygy tzyma" data-url="afour_xdmb_list.html"> -->
+							<div class="ygy tzyma" data-url="afour_wdxdlist.html">
+							<div class="inline_center">
+								<img src="../sd-icon/s_d/wdxdms.png">
+							</div>
+							<div class="inline_center">
+									我的下单
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+
+
+				<div style="height:110px;margin-top:50px;text-align:center;margin-left:1rem;margin-right:1rem;">
+  				<img src="../s-icons/afour.png" alt=""  width="100%" height="110px" style="border-radius:.4rem">
+
+  			</div>
+
+				<!-- <div class="bg">
+
+				</div> -->
+
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="../script/api.js"></script>
+	<script type="text/javascript" src="../plugins/jquery/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="../plugins/swiper/swiper.min.js"></script>
+	<script type="text/javascript" src="../plugins/weui/js/jquery-weui.min.js"></script>
+	<script type="text/javascript">
+		apiready = function() {
+
+			var lrvalue = api.getPrefs({
+	 			    sync: true,
+	 			    key: 'lrvalue'
+	 			});
+
+				var user_lr=eval("("+lrvalue+")");
+				var user_name=user_lr[0].user_name;
+
+				$("#user_name").html(user_name);
+
+
+	  // $api.fixStatusBar($api.byId('wrap'));
+			// api.setScreenOrientation({
+		  //           orientation: 'auto_portrait'
+		  //       });
+			$(".tzyma").click(function() {
+				var dataUrl = $(this).attr("data-url");
+				if (dataUrl) {
+					api.openWin({
+						name : dataUrl.split(".")[0],
+						// pageParam : {
+						// 	create_user : userinfo.username,
+						// 	roleid : userinfo.role_id
+						// },
+						url : dataUrl
+					});
+				}
+			});
+		};
+
+
+	</script>
+</html>
